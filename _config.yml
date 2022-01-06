@@ -1,0 +1,61 @@
+url: https://Studio-NFT.github.io
+baseurl: /dev/
+
+# Site settings
+title: New World Explorers
+email: nftnation365@gmail.com
+description: "Studio-NFT brings NFTs to life through Manga and more..."
+
+
+# Team names, titles and social links
+people:
+- name: Tom Smith
+  pic: 1
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Larry Page
+  pic: 2
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Neil Armstrong
+  pic: 3
+  position: Astronaut
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: github
+    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 
+  - line: 
+
+# Build settings
+markdown: kramdown
+permalink: pretty

@@ -1,0 +1,14 @@
+Hosting Webpage
+- bundle exec jekyll serve --watch
+
+Installing Gems:
+- gem install html-proofer
+
+Remember:
+- Update the config file if changing Git repository
+
+Creating repository and pushing to Git:
+- create GitHub repository
+- open files in VSCode
+VSC -> Control Source -> Message -> Tick (commit)
+VSC -> View -> Command Pallet -> Git: Add Remote -> URL -> Name
