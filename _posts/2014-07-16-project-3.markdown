@@ -1,16 +1,15 @@
 ---
-title: Mimi
-subtitle: Social & Kind
-personality: Kind
-persona: Ruthless
+title: Sharingan (写輪眼)
+subtitle: 
+personality: 
+power: SHARINGAN (写輪眼)
 layout: default
 modal-id: 3
 date: 2014-07-18
 img: 3.png
 thumbnail: 3-thumbnail.png
-colour: b61515
+colour: e07c7e
 alt: image-alt
-category: Social, Kind
-description: Mimi (実心) is a character who is known for her kindness ...
-
+category: 
+description: Sharingan is a power which first appeared in Naruto and offers the ability to observe and replicate and any technique she witnesses. However, abusing this power comes at a cost...
 ---

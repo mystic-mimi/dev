@@ -176,7 +176,7 @@ function Box() {
             ctx.lineTo(points[n].startX, points[n].startY);
             ctx.lineTo(points[n].endX, points[n].endY);
             ctx.lineTo(points[i].endX, points[i].endY);
-            ctx.fillStyle = "rgba(44,52,63,0.04)";
+            ctx.fillStyle = "rgba(13,15,26, 0)";
             ctx.fill();
         };
     }

@@ -1,21 +1,21 @@
 <!-- Portfolio Grid Section -->
-<canvas id="portfolio">
+<section id="portfolio">
 
     <div class="container">
 
         <!-- Placeholder -->
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Minting</h2>
-                <h3 class="section-subheading text-muted">This is where minting will take place</h3>
-            </div>
-        </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Minting - Coming Soon!</h2>
+                    <h3 class="section-subheading text-muted">Check out our Social Media for more details.</h3>
 
-        <div class="col-lg-12 text-center">
-            <!-- <button type="mint" class="btn btn-xl">Mint NFT</button> -->
-            <a href="https://studio-nft.github.io/candy-machine-mint/" class="btn btn-primary">Mint NFT</a>
-        </div>
-
+                        <ul class="list-inline social-buttons">
+                            {% for network in site.social %}
+                            <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
     </div>
 
 </section>

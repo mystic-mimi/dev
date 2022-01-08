@@ -1,16 +1,16 @@
 ---
-title: Mimi
+title: HAKI (覇気)
 subtitle: Social & Kind
 personality: Kind
-persona: Social
+power: HAKI (覇気)
 layout: default
 modal-id: 1
 date: 2014-07-18
 img: 1.png
 thumbnail: 1-thumbnail.png
-colour: 289e32
+colour: ddfeb2
 alt: image-alt
 category: Social, Kind
-description: Mimi (実心) is a character who is known for her kindness ...
+description: Haki is a power which was introduced by One Piece and allows Mimi to leverage her spiritual energy to manifest all kinds of effects.
 
 ---

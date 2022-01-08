@@ -1,16 +1,16 @@
 ---
-title: Mimi
+title: NEN (ネン)
 subtitle: Social & Kind
 personality: Kind
-persona: Academic
+power: NEN (ネン)
 layout: default
 modal-id: 2
 date: 2014-07-18
 img: 2.png
 thumbnail: 2-thumbnail.png
-colour: 2c1aa0
+colour: 857bcb
 alt: image-alt
 category: Social, Kind
-description: Mimi (実心) is a character who is known for her kindness ...
+description: Nen is a power that first appeared in Hunter x Hunter and allows Mimi to use and manipulate her life energy, known as her aura (オーラ).
 
 ---
