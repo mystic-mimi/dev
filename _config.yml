@@ -26,8 +26,8 @@ people:
   social:
     - title: twitter
       url: #
-    - title: facebook
-      url: #
+    - title: discord
+      url: 
     - title: linkedin
       url: #
 
@@ -45,11 +45,11 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: github
-    url: http://github.com/jekyll
+    url: https://twitter.com/MysticMimiNFT
+  - title: bolt
+    url: http://discord.gg/uNEVvRmaE8
+  - title: instagram
+    url: #
 
 # Postal address (add as many lines as necessary)
 address:

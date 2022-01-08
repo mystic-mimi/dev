@@ -1,11 +1,11 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 785dfa 
-  secondary: 63BCF0
+  secondary: 604AC8
   secondary-dark: 333
   muted: 777
 
 # Font Families
 font:
   primary: '"Kaushan Script",Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
-  secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
+  secondary: '"Chakra Petch","Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'

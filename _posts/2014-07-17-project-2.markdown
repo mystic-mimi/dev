@@ -6,9 +6,9 @@ power: NEN (ネン)
 layout: default
 modal-id: 2
 date: 2014-07-18
-img: 2.png
-thumbnail: 2-thumbnail.png
-colour: 857bcb
+img: Power-2.png
+thumbnail: Power-2.png
+colour: a8e6f3
 alt: image-alt
 category: Social, Kind
 description: Nen is a power that first appeared in Hunter x Hunter and allows Mimi to use and manipulate her life energy, known as her aura (オーラ).

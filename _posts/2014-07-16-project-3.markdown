@@ -6,9 +6,9 @@ power: SHARINGAN (写輪眼)
 layout: default
 modal-id: 3
 date: 2014-07-18
-img: 3.png
-thumbnail: 3-thumbnail.png
-colour: e07c7e
+img: Power-3.png
+thumbnail: Power-3.png
+colour: ffb0b3
 alt: image-alt
 category: 
 description: Sharingan is a power which first appeared in Naruto and offers the ability to observe and replicate and any technique she witnesses. However, abusing this power comes at a cost...
