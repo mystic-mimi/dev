@@ -1,4 +1,3 @@
-
 <!-- Portfolio Grid Section -->
     <section id="portfolio">
         
@@ -28,39 +27,8 @@
                             </h3>
 
                     </blockquote>
-                
-
-                    <h2 class="section-heading">Powers</h2>
-
-                    <h3 class="section-subheading text-muted">
-                        In the confusion of leaping onto the Solana network, Mimi acquired three powers. With your help, she must now learn how to master these powers. 
-                    </h3>
-                    <h3 class="section-subheading text-muted">
-                        Each NFT has one of these specific powers which have been inspired by the greatest anime series of all time! These are denoted by the background colour.
-                    </h3>
 
                 </div>
-            </div>
-
-            <!-- Items -->
-            <div class="row">
-
-                <!-- Looping Through Posts -->
-            {% for post in site.posts %}
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered img-rounded-corners" alt="" style="background-color: #{{ post.colour }};">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4 class="text-muted"><strong style="color:#{{post.colour}}">{{ post.power }}</strong></p>
-                    </div>
-                </div>
-            {% endfor %}
             </div>
 
         </div>
