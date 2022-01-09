@@ -258,7 +258,7 @@ $(function() {
     /** Occurs when image is being slid.
     */
     function slide(event) {
-      event.preventDefault();
+    //   event.preventDefault();
       if (event.originalEvent.touches)
         event = event.originalEvent.touches[0];
       // Distance of slide.
