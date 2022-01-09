@@ -12,6 +12,9 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ html, body {
+    overflow-x: hidden;
+  }
 
 body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -19,6 +22,8 @@ body {
     color: white;
     padding: 0;
     margin: 0;
+    position: relative;
+    width: 100%;
 }
 
 #canvas{
