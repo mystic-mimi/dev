@@ -1309,7 +1309,7 @@ span {
     background-size: auto;
     position: center;
     padding-top: 50px;
-    overflow-x: none;
+    overflow-x: hidden;
   }
 
   .img-resize{
