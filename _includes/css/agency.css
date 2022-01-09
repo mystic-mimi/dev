@@ -4,9 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-html {
-    overflow-x: hidden;
-}
 
 body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -1302,6 +1299,7 @@ span {
     white-space: nowrap;
     font-size: 0;
     transform: translateX(0);
+    position: relative;
   }
   
   .slide {
@@ -1321,7 +1319,7 @@ span {
   .animate {
     width: 100%;
     transition: all .5s ease-out;
-    /* overflow-x: scroll; */
+    position: relative;
   }
   
   .slide:nth-child(1) {background-color: rgba(148, 0, 211, 0);}
