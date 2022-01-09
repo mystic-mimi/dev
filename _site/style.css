@@ -22,7 +22,7 @@ body {
 }
 
 #canvas{
-    overflow: scroll;
+    /* overflow: scroll; */
     background-color: #1a1e36;
     position: fixed;
     width: 100%;
