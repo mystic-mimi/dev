@@ -462,7 +462,7 @@ section h3.section-subheading {
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
-    margin: 10px;
+    margin: 10px 0px 0px 0px;
     text-transform: none;
 }
 
@@ -1332,7 +1332,7 @@ span {
 /****************************************************/
 
 hr {
-    margin: 0px 20% 30px 20%;
+    margin: 30px 20% 30px 20%;
     height: 5px;
     border: none;
     background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, #785dfa));
