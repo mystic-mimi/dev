@@ -237,9 +237,9 @@ $(function() {
     var sliding = startClientX = startPixelOffset = pixelOffset = currentSlide = 0;
     slideCount = $('.slide').length;
     
-    $('html').on('mousedown touchstart', slideStart);
-    $('html').on('mouseup touchend', slideEnd);
-    $('html').on('mousemove touchmove', slide);
+    $('.slide').on('mousedown touchstart', slideStart);
+    $('.slide').on('mouseup touchend', slideEnd);
+    $('.slide').on('mousemove touchmove', slide);
     
     /**
     / Triggers when slide event started
