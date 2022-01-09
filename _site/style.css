@@ -373,7 +373,7 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 10px;
 }
 
 section h2.section-heading {
@@ -394,7 +394,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 35px 0;
+        padding: 40px 0;
     }
 }
 
@@ -470,7 +470,7 @@ section h3.section-subheading {
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
-    margin: 0;
+    margin: 10px;
     text-transform: none;
 }
 
