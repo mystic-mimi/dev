@@ -1299,7 +1299,7 @@ span {
     white-space: nowrap;
     font-size: 0;
     transform: translateX(0);
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
   
   .slide {
