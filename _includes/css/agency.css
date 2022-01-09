@@ -1319,8 +1319,8 @@ span {
     width: 100%;
     transition: all .5s ease-out;
     position: relative;
-    -ms-touch-action: auto;
-        touch-action: auto;
+    /* -ms-touch-action: auto;
+        touch-action: auto; */
   }
   
   .slide:nth-child(1) {background-color: rgba(148, 0, 211, 0);}
