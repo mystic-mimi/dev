@@ -1,21 +1,25 @@
 <!-- Portfolio Grid Section -->
 <section id="mint">
-
     <div class="container">
 
-        <!-- Placeholder -->
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Minting - Coming Soon!</h2>
-                    <h3 class="section-subheading text-muted">Check out our Social Media for more details.</h3>
-
-                        <ul class="list-inline social-buttons">
-                            {% for network in site.social %}
-                            <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Minting - Coming Soon!</h2>
+                <h3 class="section-subheading text-muted">Check out our Social Media for more details.</h3>
+                <ul class="list-inline social-buttons">
+                    {% for network in site.social %}
+                        <li>
+                            <a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
     </div>
 
+    <div id="slides">
+        <div class="slide"><img src="img/slides/1.png"  class="img-responsive img-centered img-rounded-corners img-resize"alt=""></div>
+        <div class="slide"><img src="img/slides/2.png"  class="img-responsive img-centered img-rounded-corners img-resize" alt=""></div>
+        <div class="slide"><img src="img/slides/3.png"  class="img-responsive img-centered img-rounded-corners img-resize"  alt=""></div>
+    </div>
 </section>
