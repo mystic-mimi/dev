@@ -4,14 +4,28 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Site Title -->
     <title>Mystic Mimi</title>
+
+    <!-- Include JQuery CDN -->
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous">
+    </script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <meta name="description" content="...">
     <link rel="canonical" href="http://localhost:4000/dev//minting/">
 
+    <!-- Slick Carousel -->
+    <link rel="stylesheet" type="text/css" href="slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick-theme.css"/>
+
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="/dev//style.css">
-
+    
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="/dev//css/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -21,7 +35,9 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
+    <!-- DONT KNOW -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/1.0.0/anime.min.js'></script>
+
 </head>
 
 
@@ -103,38 +119,47 @@
                         </li>
                     
                         <li>
-                            <a href=""><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/mysticmiminft/"><i class="fa fa-instagram"></i></a>
                         </li>
                     
                 </ul>
             </div>
         </div>
-    </div>
 
-    <div id="slides">
-        <div class="slide"><img src="img/slides/1.png"  class="img-responsive img-centered img-rounded-corners img-resize"alt=""></div>
-        <div class="slide"><img src="img/slides/2.png"  class="img-responsive img-centered img-rounded-corners img-resize" alt=""></div>
-        <div class="slide"><img src="img/slides/3.png"  class="img-responsive img-centered img-rounded-corners img-resize"  alt=""></div>
-    </div>
+    </div>  
+
 </section>
 
          <!-- jQuery Version 1.11.0 -->
-    <script src="/dev//js/jquery-1.11.0.js"></script>
+    <!-- <script src="/dev//js/jquery-1.11.0.js"></script> -->
 
     <!-- Bootstrap Core JavaScript -->
     <script src="/dev//js/bootstrap.min.js"></script>
 
+    <!-- Slick JS -->
+    <script src="/dev//js/slick.js"></script>
+
+    <script type="text/javascript">
+      $('.multiple-items').slick({
+         infinite: true,
+      slidesToShow: 3,
+      swipeToSlide: true,
+      arrows: false
+      });
+   </script>
+
     <!-- Plugin JavaScript -->
-    <script src="/dev//js/jquery.easing.min.js"></script>
-    <script src="/dev//js/classie.js"></script>
-    <script src="/dev//js/cbpAnimatedHeader.js"></script>
+    <!-- <script src="/dev//js/jquery.easing.min.js"></script> -->
+    <!-- <script src="/dev//js/classie.js"></script> -->
+    <!-- <script src="/dev//js/cbpAnimatedHeader.js"></script> -->
 
     <!-- Contact Form JavaScript -->
-    <!-- <script src="/dev//js/jqBootstrapValidation.js"></script> -->
+    <!-- <script src="/dev//js/jqBootstrapValidation.js"></sc ript> -->
     <!-- <script src="/dev//js/contact_me.js"></script> -->
 
     <!-- Custom Theme JavaScript -->
     <script src="/dev//js/agency.js"></script>
+
 
     </body>
 </html>

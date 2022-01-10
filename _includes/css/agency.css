@@ -1343,3 +1343,20 @@ hr {
     border: none;
     background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, #785dfa));
 }
+
+
+/* Slick */
+
+.slick-slide img{
+    /* height: 500px */
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 4px solid #f5c156;
+}
+
+.multiple-items {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
