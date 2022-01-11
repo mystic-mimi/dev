@@ -487,26 +487,6 @@ section h3.section-subheading {
     }
 }
 
-/* .overlap{
-    position: relative; 
-    margin: 0;
-    text-align: center;
-
-    font-size: 40px;
-    margin-bottom: 30px;
-}
-.underlap{
-    position: absolute; 
-    top: 0px; 
-    width: 100%;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 50px;
-    font-family: {{ site.data.template.font.primary }};
-} */
-
-
 
 /* New Version - Timeline*/
 .timeline {
@@ -560,35 +540,6 @@ section h3.section-subheading {
 .timeline__event__description {
     flex-basis: 0%;
 }
-/* .timeline__event:after {
-    content: "";
-    width: 2px;
-    height: 100%;
-    background: #91ee98;
-    position: relative;
-    top: 52%;
-    left: -3.5rem;
-    z-index: -1;
-} */
-/* .timeline__event:before {
-    content: "";
-    width: 5rem;
-    height: 5rem;
-    position: absolute;
-    background: #91ee98;
-    border-radius: 100%;
-    left: -6rem;
-    top: 50%;
-    transform: translateY(-50%);
-    border: 2px solid #289e32;
-} */
-/* .timeline__event--type2:before {
-    background: #a6c8d8;
-    border-color: #1b739c;
-}
-.timeline__event--type2:after {
-    background: #a6c8d8;
-} */
 .timeline__event--type2 .timeline__event__date {
     color: #0072FF;
 }
@@ -599,13 +550,6 @@ section h3.section-subheading {
 .timeline__event--type2 .timeline__event__title {
     color: #0072FF;
 }
-/* .timeline__event--type3:before {
-    background: #8579ce;
-    border-color: #2c1aa0;
-}
-.timeline__event--type3:after {
-    background: #8579ce;
-} */
 .timeline__event--type3 .timeline__event__date {
     color: #F825BD;
 }
@@ -616,13 +560,6 @@ section h3.section-subheading {
 .timeline__event--type3 .timeline__event__title {
     color: #F825BD;
 }
-/* .timeline__event--type4:before {
-    background: #e57d7d;
-    border-color: #b61515;
-}
-.timeline__event--type4:after {
-    background: #e57d7d;
-} */
 .timeline__event--type4 .timeline__event__date {
     color: #47f099;
 }
@@ -645,206 +582,6 @@ section h3.section-subheading {
    }
 }
 
-/* Old Version - Timeline*/
-/* .timeline {
-    position: relative;
-    padding: 0;
-    list-style: none;
-}
-
-.timeline:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 40px;
-    width: 2px;
-    margin-left: -1.5px;
-    background-color: #f1f1f1;
-}
-
-.timeline>li {
-    position: relative;
-    margin-bottom: 50px;
-    min-height: 50px;
-}
-
-.timeline>li:before,
-.timeline>li:after {
-    content: " ";
-    display: table;
-}
-
-.timeline>li:after {
-    clear: both;
-}
-
-.timeline>li .timeline-panel {
-    float: right;
-    position: relative;
-    width: 100%;
-    padding: 0 20px 0 100px;
-    text-align: left;
-}
-
-.timeline>li .timeline-panel:before {
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
-}
-
-.timeline>li .timeline-panel:after {
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
-}
-
-.timeline>li .timeline-image {
-    z-index: 100;
-    position: absolute;
-    left: 0;
-    width: 80px;
-    height: 80px;
-    margin-left: 0;
-    border: 4px solid #90c018;
-    border-radius: 100%;
-    text-align: center;
-    color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
-}
-
-.timeline>li .timeline-image h4 {
-    margin-top: 12px;
-    font-size: 10px;
-    line-height: 14px;
-}
-
-.timeline>li.timeline-inverted>.timeline-panel {
-    float: right;
-    padding: 0 20px 0 100px;
-    text-align: left;
-}
-
-.timeline>li.timeline-inverted>.timeline-panel:before {
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
-}
-
-.timeline>li.timeline-inverted>.timeline-panel:after {
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
-}
-
-.timeline>li:last-child {
-    margin-bottom: 0;
-}
-
-.timeline .timeline-heading h4 {
-    margin-top: 0;
-    color: inherit;
-}
-
-.timeline .timeline-heading h4.subheading {
-    text-transform: none;
-}
-
-.timeline .timeline-body>p,
-.timeline .timeline-body>ul {
-    margin-bottom: 0;
-}
-
-@media(min-width:768px) {
-    .timeline:before {
-        left: 50%;
-    }
-
-    .timeline>li {
-        margin-bottom: 100px;
-        min-height: 100px;
-    }
-
-    .timeline>li .timeline-panel {
-        float: left;
-        width: 41%;
-        padding: 0 20px 20px 30px;
-        text-align: right;
-    }
-
-    .timeline>li .timeline-image {
-        left: 50%;
-        width: 100px;
-        height: 100px;
-        margin-left: -50px;
-    }
-
-    .timeline>li .timeline-image h4 {
-        margin-top: 16px;
-        font-size: 13px;
-        line-height: 18px;
-    }
-
-    .timeline>li.timeline-inverted>.timeline-panel {
-        float: right;
-        padding: 0 30px 20px 20px;
-        text-align: left;
-    }
-}
-
-@media(min-width:992px) {
-    .timeline>li {
-        min-height: 150px;
-    }
-
-    .timeline>li .timeline-panel {
-        padding: 0 20px 20px;
-    }
-
-    .timeline>li .timeline-image {
-        width: 150px;
-        height: 150px;
-        margin-left: -75px;
-    }
-
-    .timeline>li .timeline-image h4 {
-        margin-top: 30px;
-        font-size: 18px;
-        line-height: 26px;
-    }
-
-    .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 20px 20px;
-    }
-}
-
-@media(min-width:1200px) {
-    .timeline>li {
-        min-height: 170px;
-    }
-
-    .timeline>li .timeline-panel {
-        padding: 0 20px 20px 100px;
-    }
-
-    .timeline>li .timeline-image {
-        width: 170px;
-        height: 170px;
-        margin-left: -85px;
-    }
-
-    .timeline>li .timeline-image h4 {
-        margin-top: 40px;
-    }
-
-    .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 100px 20px 20px;
-    }
-} */
 
 .team-member {
     margin-bottom: 50px;
@@ -1355,12 +1092,14 @@ hr {
     border-radius: 8px;
     position: relative;
     transition: all 0.1s ease-in-out;
-    border: 4px solid #{{ site.data.template.color.primary }};
+    border: 4px solid rgba(17,20,36,1); 
+    background: rgba(17,20,36,0.6);
 }
 
 .slick-slide img:hover {
     transition: all 0.1s ease-in-out;
-    padding: 0px 0px 0px 0px;
+    width: 90%;
+    border: 4px solid rgba(17,20,36,1); 
     border: 4px solid #{{ site.data.template.color.primary }};
 }
 
