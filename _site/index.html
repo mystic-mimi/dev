@@ -26,17 +26,15 @@
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="/dev//style.css">
     
+   
     <!-- Custom Fonts -->
-    <link rel="stylesheet" href="/dev//css/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/cdba02597e.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Chakra+Petch' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- DONT KNOW -->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/1.0.0/anime.min.js'></script>
 
 </head>
 
@@ -249,15 +247,15 @@
                 <ul class="list-inline social-buttons">
                     
                         <li>
-                            <a href="https://twitter.com/MysticMimiNFT"><i class="fa fa-twitter"></i></a>
+                            <a href="https://twitter.com/MysticMimiNFT"><i class="fab fa-twitter"></i></a>
                         </li>
                     
                         <li>
-                            <a href="http://discord.gg/uNEVvRmaE8"><i class="fa fa-bolt"></i></a>
+                            <a href="http://discord.gg/uNEVvRmaE8"><i class="fab fa-discord"></i></a>
                         </li>
                     
                         <li>
-                            <a href="https://www.instagram.com/mysticmiminft/"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/mysticmiminft/"><i class="fab fa-instagram"></i></a>
                         </li>
                     
                 </ul>
@@ -524,16 +522,15 @@
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
                         
-                        <li><a href="https://twitter.com/MysticMimiNFT"><i class="fa fa-twitter"></i></a>
+                        <li><a href="https://twitter.com/MysticMimiNFT"><i class="fab fa-twitter"></i></a>
                         </li>
                         
-                        <li><a href="http://discord.gg/uNEVvRmaE8"><i class="fa fa-bolt"></i></a>
+                        <li><a href="http://discord.gg/uNEVvRmaE8"><i class="fab fa-discord"></i></a>
                         </li>
                         
-                        <li><a href="https://www.instagram.com/mysticmiminft/"><i class="fa fa-instagram"></i></a>
+                        <li><a href="https://www.instagram.com/mysticmiminft/"><i class="fab fa-instagram"></i></a>
                         </li>
                         
-                        <i class="fa-brands fa-discord"></i>
                     </ul>
                 </div>
 
@@ -640,9 +637,35 @@
     <script type="text/javascript">
       $('.multiple-items').slick({
          infinite: true,
-      slidesToShow: 3,
-      swipeToSlide: true,
-      arrows: false
+         slidesToShow: 3,
+         swipeToSlide: true,
+         arrows: false,
+         autoplay: true,
+         autoplaySpeed: 1000,
+         pauseOnHover: true,
+         responsive: [{
+                  breakpoint: 768,
+                  settings: {
+                     infinite: true,
+                     slidesToShow: 3,
+                     swipeToSlide: true,
+                     arrows: false,
+                     autoplay: true,
+                     autoplaySpeed: 1000,
+                     pauseOnHover: true
+                  }
+            }, {
+                  breakpoint: 480,
+                  settings: {
+                     infinite: true,
+                     slidesToShow: 1,
+                     swipeToSlide: true,
+                     arrows: false,
+                     autoplay: true,
+                     autoplaySpeed: 1000,
+                     pauseOnHover: true
+                  }
+            }]
       });
    </script>
 

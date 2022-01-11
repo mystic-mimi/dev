@@ -10,9 +10,35 @@
     <script type="text/javascript">
       $('.multiple-items').slick({
          infinite: true,
-      slidesToShow: 3,
-      swipeToSlide: true,
-      arrows: false
+         slidesToShow: 3,
+         swipeToSlide: true,
+         arrows: false,
+         autoplay: true,
+         autoplaySpeed: 1000,
+         pauseOnHover: true,
+         responsive: [{
+                  breakpoint: 768,
+                  settings: {
+                     infinite: true,
+                     slidesToShow: 3,
+                     swipeToSlide: true,
+                     arrows: false,
+                     autoplay: true,
+                     autoplaySpeed: 1000,
+                     pauseOnHover: true
+                  }
+            }, {
+                  breakpoint: 480,
+                  settings: {
+                     infinite: true,
+                     slidesToShow: 1,
+                     swipeToSlide: true,
+                     arrows: false,
+                     autoplay: true,
+                     autoplaySpeed: 1000,
+                     pauseOnHover: true
+                  }
+            }]
       });
    </script>
 
