@@ -222,6 +222,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: white;
+    background-color: rgba(17,20,36,1);
 }
 
 .navbar-default .navbar-brand:hover,
@@ -233,6 +234,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-collapse {
     border-color: rgba(17,20,36,0.5);
+    background-color: rgba(17,20,36,1);
 }
 
 .navbar-default .navbar-toggle {
@@ -258,6 +260,7 @@ fieldset[disabled] .btn-xl.active {
     -moz-transition: all ease .35s;
     transition: all ease .35s;
     font-family: "Chakra Petch","Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
+    background-color: rgba(17,20,36,1);
 }
 
 .navbar-default .nav li a:hover,
@@ -280,9 +283,9 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 15px 0;
         border: 0;
-        background-color: transparent;
+        /* background-color: transparent; */
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -864,7 +867,7 @@ body {
     border-radius: 8px;
     width: 100%;
     font-size: 16px;
-    text-align: justify;
+    text-align:left;
     font-family: "Chakra Petch","Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
     color: #777;
   }

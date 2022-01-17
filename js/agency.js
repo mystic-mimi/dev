@@ -226,4 +226,3 @@ function collisionDetection(b){
 		}
 	}
 }
-
