@@ -5,38 +5,34 @@
     <description>...</description>
     <link>http://localhost:4000/dev//</link>
     <atom:link href="http://localhost:4000/dev//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 17 Jan 2022 20:57:49 +0000</pubDate>
-    <lastBuildDate>Mon, 17 Jan 2022 20:57:49 +0000</lastBuildDate>
+    <pubDate>Wed, 19 Jan 2022 20:17:15 +0000</pubDate>
+    <lastBuildDate>Wed, 19 Jan 2022 20:17:15 +0000</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
-        <title>HAKI (覇気)</title>
+        <title>CLAN - Buzoku (部族)</title>
         <description>
 </description>
         <pubDate>Fri, 18 Jul 2014 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/dev//social,%20kind/2014/07/18/project-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/dev//social,%20kind/2014/07/18/project-1/</guid>
+        <link>http://localhost:4000/dev//2014/07/18/project-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/dev//2014/07/18/project-1/</guid>
         
-        
-        <category>Social, Kind</category>
         
       </item>
     
       <item>
-        <title>NEN (ネン)</title>
+        <title>CRAFT- Yakume (役目)</title>
         <description>
 </description>
         <pubDate>Fri, 18 Jul 2014 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/dev//social,%20kind/2014/07/18/project-2/</link>
-        <guid isPermaLink="true">http://localhost:4000/dev//social,%20kind/2014/07/18/project-2/</guid>
+        <link>http://localhost:4000/dev//2014/07/18/project-2/</link>
+        <guid isPermaLink="true">http://localhost:4000/dev//2014/07/18/project-2/</guid>
         
-        
-        <category>Social, Kind</category>
         
       </item>
     
       <item>
-        <title>Sharingan (写輪眼)</title>
+        <title>CASTE - Kaisō(階層)</title>
         <description>
 </description>
         <pubDate>Fri, 18 Jul 2014 00:00:00 +0100</pubDate>

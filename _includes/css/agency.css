@@ -385,7 +385,7 @@ section h3.section-subheading {
     margin-top: 15px;
     margin-bottom: 30px;
     text-transform: none;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 200;
     line-height: 1.3;
     font-family: {{ site.data.template.font.secondary }};
@@ -403,6 +403,14 @@ section h3.section-subheading {
 }
 
     /* Edit */
+#story {
+    border-radius: 8px;
+}
+
+#gallery {
+    border-radius: 8px;
+}
+
 #portfolio {
     border-radius: 8px;
 }
@@ -841,9 +849,9 @@ body {
     transition: 0.4s;
     border-radius: 8px;
     margin-top: 15px;
-    font-size: 18px;
+    font-size: 20px;
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: {{ site.data.template.font.secondary }};
     
   }
 
@@ -859,7 +867,7 @@ body {
     border-radius: 8px;
     width: 100%;
     font-size: 16px;
-    text-align:left;
+    text-align:center;
     font-family: {{ site.data.template.font.secondary }};
     color: #{{ site.data.template.color.muted }};
   }
@@ -1101,7 +1109,6 @@ hr {
 
 .slick-slide img:hover {
     transition: all 0.1s ease-in-out;
-    width: 90%;
     border: 4px solid rgba(17,20,36,1); 
     border: 4px solid #{{ site.data.template.color.primary }};
 }

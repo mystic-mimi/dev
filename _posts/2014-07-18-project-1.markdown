@@ -1,8 +1,8 @@
 ---
-title: HAKI (覇気)
-subtitle: Social & Kind
-personality: Kind
-power: HAKI (覇気)
+title: CLAN - Buzoku (部族)
+subtitle: 
+personality: 
+power: CLAN
 layout: default
 modal-id: 1
 date: 2014-07-18
@@ -10,7 +10,10 @@ img: Power-1.png
 thumbnail: Power-1.png
 colour: ffefb3
 alt: image-alt
-category: Social, Kind
-description: Haki is a power which was introduced by One Piece and allows Mimi to leverage her spiritual energy to manifest all kinds of effects.
+category: 
+description: There will be three CLANS; the Underworld, the Heavens, and the Lands. Clans must learn to act as a community if they wish to dominate the Metaverse. Led by their CASTE leaders and using their individual's specific CRAFT will be vital to their survival. 
+
+description2: Each NFT will be merged so that every Mimi’s CLAN allegiance will be easily identifiable. 
+
 
 ---

@@ -1,8 +1,8 @@
 ---
-title: Sharingan (写輪眼)
+title: CASTE - Kaisō(階層)
 subtitle: 
 personality: 
-power: SHARINGAN (写輪眼)
+power: CASTE
 layout: default
 modal-id: 3
 date: 2014-07-18
@@ -11,5 +11,7 @@ thumbnail: Power-3.png
 colour: ffb0b3
 alt: image-alt
 category: 
-description: Sharingan is a power which first appeared in Naruto and offers the ability to observe and replicate and any technique she witnesses. However, abusing this power comes at a cost...
+description: As Mimi ventures to “The Swirling Pools”, she will learn her CASTE. This is her position of seniority in her CLAN. The village elders will carry the most respect and have the most influence (or voting rights) in their CLAN. However, a mutiny from tribal warriors, an embargo from diplomats or a curse from witches will easily overturn this control.
+
+description2: The hierarchy gives more voting rights to the NFT holder, granting them more influence within the Mystic Mimi Collection. The final stage of Mimi’s journey to “The Swirling Pools” will reveal the true value of each NFT, rewarding holders greatly. 
 ---

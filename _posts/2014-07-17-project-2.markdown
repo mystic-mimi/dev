@@ -1,8 +1,8 @@
 ---
-title: NEN (ネン)
-subtitle: Social & Kind
-personality: Kind
-power: NEN (ネン)
+title: CRAFT- Yakume (役目)
+subtitle: 
+personality: 
+power: CRAFT
 layout: default
 modal-id: 2
 date: 2014-07-18
@@ -10,7 +10,10 @@ img: Power-2.png
 thumbnail: Power-2.png
 colour: a8e6f3
 alt: image-alt
-category: Social, Kind
-description: Nen is a power that first appeared in Hunter x Hunter and allows Mimi to use and manipulate her life energy, known as her aura (オーラ).
+category: 
+description: Each Mimi will receive her CRAFT at “The Dojo” - a historic site where the fiercest warriors are forged, the most cunning of diplomats hone their skills, and the most wicked witches and wizards are taught. 
+
+description2: Each NFT will be further developed to demonstrate her specific craft. This will add extra rarity and value to each NFT as every CLAN depends upon their CRAFTs powers for success.
+
 
 ---
