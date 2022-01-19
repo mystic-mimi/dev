@@ -1,13 +1,13 @@
 ---
-title: CRAFT- Yakume (役目)
+title: CRAFT- Yakume - 役目
 subtitle: 
 personality: 
 power: CRAFT
 layout: default
 modal-id: 2
 date: 2014-07-18
-img: Power-2.png
-thumbnail: Power-2.png
+img: 2.png
+thumbnail: 2.png
 colour: a8e6f3
 alt: image-alt
 category: 

@@ -1,13 +1,13 @@
 ---
-title: CLAN - Buzoku (部族)
+title: CLAN - Buzoku - 部族
 subtitle: 
 personality: 
 power: CLAN
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: Power-1.png
-thumbnail: Power-1.png
+img: 1.png
+thumbnail: 1.png
 colour: ffefb3
 alt: image-alt
 category: 

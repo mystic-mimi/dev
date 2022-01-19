@@ -1,13 +1,13 @@
 ---
-title: CASTE - Kaisō(階層)
+title: CASTE - Kaisō - 階層
 subtitle: 
 personality: 
 power: CASTE
 layout: default
 modal-id: 3
 date: 2014-07-18
-img: Power-3.png
-thumbnail: Power-3.png
+img:  3.png
+thumbnail: 3.png
 colour: ffb0b3
 alt: image-alt
 category: 

@@ -5,12 +5,12 @@
     <description>...</description>
     <link>http://localhost:4000/dev//</link>
     <atom:link href="http://localhost:4000/dev//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 19 Jan 2022 20:17:15 +0000</pubDate>
-    <lastBuildDate>Wed, 19 Jan 2022 20:17:15 +0000</lastBuildDate>
+    <pubDate>Wed, 19 Jan 2022 21:13:11 +0000</pubDate>
+    <lastBuildDate>Wed, 19 Jan 2022 21:13:11 +0000</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
-        <title>CLAN - Buzoku (部族)</title>
+        <title>CLAN - Buzoku - 部族</title>
         <description>
 </description>
         <pubDate>Fri, 18 Jul 2014 00:00:00 +0100</pubDate>
@@ -21,7 +21,7 @@
       </item>
     
       <item>
-        <title>CRAFT- Yakume (役目)</title>
+        <title>CRAFT- Yakume - 役目</title>
         <description>
 </description>
         <pubDate>Fri, 18 Jul 2014 00:00:00 +0100</pubDate>
@@ -32,7 +32,7 @@
       </item>
     
       <item>
-        <title>CASTE - Kaisō(階層)</title>
+        <title>CASTE - Kaisō - 階層</title>
         <description>
 </description>
         <pubDate>Fri, 18 Jul 2014 00:00:00 +0100</pubDate>
