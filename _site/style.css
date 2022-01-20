@@ -1112,13 +1112,13 @@ hr {
     border-radius: 8px;
     position: relative;
     transition: all 0.1s ease-in-out;
-    /* border: 4px solid rgba(17,20,36,1);  */
-    background: rgba(17,20,36,0.6);
+    border: 6px solid #7768cd;
+    /* box-shadow: rgba(93, 80, 187, 0.6) 5px 5px; */
 }
 
 .slick-slide img:hover {
     transition: all 0.1s ease-in-out;
-    border: 6px solid #7768cd; 
+    border: 6px solid #604fc4; 
 }
 
 .multiple-items {
