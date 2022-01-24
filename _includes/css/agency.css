@@ -20,7 +20,6 @@ body {
 
 #canvas{
     /* overflow: scroll; */
-    /* background-color: #1a1e36; */
     background-image: url("img/canvas/background.png");
     position: fixed;
     width: 100%;
@@ -314,10 +313,10 @@ header {
     background-position: center center;
     background-repeat: none; */
     background-color: rgba(17,20,36,1);
-    /* -webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover; */
+    -o-background-size: cover;
     z-index: 1;
 }
 
@@ -404,13 +403,31 @@ section h3.section-subheading {
 }
 
     /* Edit */
-#story {
+/* #story * {
     border-radius: 8px;
+    z-index: 2;
 }
 
-#gallery {
+#gallery * {
     border-radius: 8px;
+    z-index: 2;
 }
+
+#roadmap * {
+    border-radius: 8px;
+    z-index: 2;
+}
+
+#faq * {
+    border-radius: 8px;
+    z-index: 2;
+}
+
+#team * {
+    border-radius: 8px;
+    z-index: 2;
+} */
+
 
 #portfolio {
     border-radius: 8px;
@@ -1047,7 +1064,7 @@ span {
 /****************************************************/
 /* PHOTO SLIDE                                      */
 /****************************************************/
-#slides {
+.slides {
     width: 100%;
     height: 100%;
     white-space: nowrap;
